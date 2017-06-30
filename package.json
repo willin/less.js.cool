@@ -1,0 +1,15 @@
+{
+  "name": "less.js.cool",
+  "description": "简约而不简单",
+  "version": "1.0.0",
+  "main": "config.js",
+  "scripts": {
+    "start": "docsify serve . --port 3456 --open"
+  },
+  "devDependencies": {
+   "docsify-cli": "^4.1.8"
+  },
+  "repository": "git@github.com:willin/less.js.cool.git",
+  "author": "willin <willin@willin.org>",
+  "license": "MIT"
+}

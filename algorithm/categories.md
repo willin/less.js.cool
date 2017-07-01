@@ -80,7 +80,7 @@ const loop = (list) => {
   }
   // 循环自下而上遍历
   for (let i = depth; i > 1; i -= 1) {
-    items[i] = items[i].map(x => {
+    items[i] = items[i].forEach(x => {
       const parentNode = items[i - 1].findIndex(y => y.oid === x.parentoid);
       items[i - 1][parentNode].children = (items[i - 1][parentNode].children || [] ).concat(x);
     });

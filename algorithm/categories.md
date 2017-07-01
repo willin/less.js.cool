@@ -99,7 +99,7 @@ console.log(JSON.stringify(loop(orgs), null, 2));
 ```js
 suite('Categories', function () {
   bench('test 1', function() {
-    loop1(orgs1);
+    loop1(orgs1, 47378);
   });
   bench('test 2', function() {
     loop2(orgs2);
@@ -108,7 +108,7 @@ suite('Categories', function () {
 ```
 
 ```
-                      Categories
-         337,813 op/s » test 1
-             535 op/s » test 2
+                     Categories
+           2,620 op/s » test 1
+             531 op/s » test 2
 ```

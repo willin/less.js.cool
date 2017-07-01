@@ -5,6 +5,7 @@
 核心字段
 
 Column | Desc
+--- | ---
 oid | 组织id
 name | 组织名称
 parentoid | 上级组织id
@@ -45,6 +46,7 @@ console.log(JSON.stringify(loop(orgs, 47378), null, 2));
 核心字段
 
 Column | Desc
+--- | ---
 oid | 组织id
 name | 组织名称
 parentoid | 上级组织id

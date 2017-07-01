@@ -29,7 +29,7 @@ window.$docsify = {
   executeScript: true,
   auto2top: true,
   alias: {
-   
+   '/algorithm/_sidebar.md': '/_sidebar.md'
   },
   search: {
     placeholder: '搜索',

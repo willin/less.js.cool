@@ -1,1 +1,2 @@
-- 目录
+- 算法
+ - [无限层级目录算法](/algorithm/categories.md)
